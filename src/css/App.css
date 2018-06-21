@@ -9,16 +9,28 @@
 
 header{
   background-image: linear-gradient(83deg, rgba(203, 190, 179, 0), rgba(102, 95, 90, 0.16));
-  margin: 0px;
-  padding: 0px;
+  height: 50px;
+  font-size: 21px;
 }
 
 .navbar {
   display: block;
   float: right;
-  color: 'white';
-  padding-right: 10%;
+  padding-right: 20px;
+  text-decoration: none;
 }
+
+.navbar a, .navbar p{
+  line-height: 10px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #0000003f;
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -50,19 +62,118 @@ header{
 
 .backgroundBanner {
   height: 457px;
-  background: url(../images/Vesod-3.jpg) no-repeat center center fixed;
+  margin-top: 7%;
+  background: url(../images/Vesod-3.jpg) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.backgroundOverlayBox{
+  justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .backgroundOverlay {
+  background-color: rgba(255, 255, 255, 0.597); 
+  display: block;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.backgroundTitle span {
+  font-weight: 300;
+}
+
+.socialLinks {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 2%;
+}
+.socialLinks a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.mainHeading {
+  text-align: center;
+  color: #BABAC2;
+  padding-top: 5%;
+  font-weight: 500;
+}
+
+.mainText {
+  text-align: center;
+  color: #707070;
+  font-size: 16px;
+}
+
+.mainText a {
+  color: #A44F33;
+  text-decoration: none;
+}
+
+.mainTextBox {
+  background-color: rgba(255, 255, 255, 0.351);
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 25%;
-  padding-bottom: 25%;
-  background-image: linear-gradient(83deg, rgba(203, 190, 179, 0), rgba(102, 95, 90, 0.16));
-  display: block;
+}
+
+.contactDetails {
+  color: #BABAC2;
+  text-align: center;
+  padding-top: 2%
+}
+
+.contactDetails a {
+  color: #707070;
+  text-decoration: none;
+}
+
+.salutation {
+  text-align: center;
+  color: #BABAC2;
+  font-size: 22px;
+}
+.imgContainer {
+  width: 30%;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.bottomImage {
+  display: flex;
+  justify-content: center;
+  padding-top: 7%;
+}
+
+.bottomImage img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: right;
+  padding-right: 2%;
+  color: #BABAC2;
+  font-size: 22px;
+  padding-top: 5%;
+  
+}
+
+.footerImage {
+  background-image: linear-gradient(83deg, rgba(102, 95, 90, 0.16), rgba(203, 190, 179, 0));
+  height: 50px;
+  font-size: 21px;
+  line-height: 50px;
+}
+
+p, a, h1, h2, h3, h4 {
+  font-family: 'Montserrat';
 }
