@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+header{
+  background-image: linear-gradient(83deg, rgba(203, 190, 179, 0), rgba(102, 95, 90, 0.16));
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  display: block;
+  float: right;
+  color: 'white';
+  padding-right: 10%;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.Site-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Header-menu {
+  width: 116px;
+  height: 41px;
+  padding-left: 1565px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 31px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.backgroundBanner {
+  height: 457px;
+  background: url(../images/Vesod-3.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+}
+
+.backgroundOverlay {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  background-image: linear-gradient(83deg, rgba(203, 190, 179, 0), rgba(102, 95, 90, 0.16));
+  display: block;
+}

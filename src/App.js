@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+//import styles from 'styles.css';
+
+// const .Rectangle-2 {
+//   width: 1440px;
+//   height: 280px;
+//   background-image: linear-gradient(111deg, #6573ff, #4856e7 11%, #4856e7 11%, #4856e7 12%, #2c2d6b 81%, #702a83);
+// }
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+      <div className="container">
+        <header>
+          <div className="navbar">
+          Resum&eacute; <a href="mailto:jessicawatsonmiller@gmail.com">Contact me</a>
+          </div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-        Resum&eacute; <a href="mailto:jessicawatsonmiller@gmail.com">Contact me</a>
-        </p>
-        <p>
-        JESSICA WATSON MILLER
-        </p>
+        <div className="backgroundBanner">
+            <div className="backgroundOverlay">
+              <h1 className="backgroundTitle">JESSICA WATSON MILLER</h1>
+            </div>
+        </div>
         <p>
         <a href="https://twitter.com/jesswatmiller">Twitter</a> | <a href="https://www.linkedin.com/in/jessica-watson-miller-0082aa60/">Linkedin</a> | <a href="https://www.instagram.com/art_kinetica/">Instagram</a>
         </p>
@@ -56,6 +59,7 @@ class App extends Component {
         <p>
         It&#39;s nice to meet you.
         </p>
+        <img src="Vesod-5.1.png" alt="Vesod" height="635" width="566"></img>
         <p>
         Website by me. Artwork by Vesod Brero.
         </p>
