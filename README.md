@@ -1,3 +1,27 @@
+Hosted at jessicawatsonmiller.com (using Wix hosting)
+
+To deploy:
+yarn run deploy
+
+To dos:
+- enforce HTTPS (on Github web)
+- add hosted pdf resume
+- doublecheck all css is correct for mobile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -828,7 +852,7 @@ Create React App doesn't prescribe a specific routing solution, but [React Route
 To add it, run:
 
 ```sh
-npm install --save react-router-dom
+npm install --save react-router-do
 ```
 
 Alternatively you may use `yarn`:
@@ -837,7 +861,7 @@ Alternatively you may use `yarn`:
 yarn add react-router-dom
 ```
 
-To try it, delete all the code in `src/App.js` and replace it with any of the examples on its website. The [Basic Example](https://reacttraining.com/react-router/web/example/basic) is a good place to get started.
+To try it, delete all the code in `src/App.js` and replace it with any of the examples on its webite. The [Basic Example](https://reacttraining.com/react-router/web/example/basic) is a good placeto get started.
 
 Note that [you may need to configure your production server to support client-side routing](#serving-apps-with-client-side-routing) before deploying your app.
 
@@ -846,7 +870,7 @@ Note that [you may need to configure your production server to support client-si
 >Note: this feature is available with `react-scripts@0.2.3` and higher.
 
 Your project can consume variables declared in your environment as if they were declared locally in your JS files. By
-default you will have `NODE_ENV` defined for you, and any other environment variables starting with
+default you will have `NODE_ENV` defined for you, and any other environment variables starting wit
 `REACT_APP_`.
 
 **The environment variables are embedded during the build time**. Since Create React App produces a static HTML/CSS/JS bundle, it can’t possibly read them at runtime. To read them at runtime, you would need to load HTML into memory on the server and replace placeholders in runtime, just like [described here](#injecting-data-from-the-server-into-the-page). Alternatively you can rebuild the app on the server anytime you change them.
